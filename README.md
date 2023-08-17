@@ -39,6 +39,11 @@ Our preliminary hypothesis suggests that rising CO2 emissions will lead to highe
  - Approximately 96.03% of variation in mean_crop_yield explained by predictors.
  - Hyperparameter optimization using Ridge regression with lambda=123.5.
  - Model shows a good fit to the data.
+
+## Conclusion
+
+Through linear regression and ridge regression using cross-validation/grid search, we analyzed multiple models. Model I revealed a strong relationship between Temperature_anomaly and mean_co2_ppm. Model II indicated significant effects of Temperature_anomaly and mean_co2_ppm on mean_crop_yield. Model III highlighted the importance of mean_temperature in predicting Avg_Standardized_Precipitation. Lastly, Model IV showcased the substantial impact of mean_temperature and Avg_Standardized_Precipitation on mean_crop_yield, with hyperparameter optimization further improving model performance across all cases.
+
   
 ## References
 
